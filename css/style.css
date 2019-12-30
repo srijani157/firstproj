@@ -1,4 +1,126 @@
-nav{
-	font-family: 'Open Sans', sans-serif;
-	
+body{
+	background-color: lavender;
+	font-family: 'Exo 2', sans-serif;
+}
+h1{
+	    margin-bottom: 17px;
+    margin-top: 15px;
+}
+
+.carousel-item{
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+	/*width: 674px;
+	height: 403px;*/
+	padding-bottom: 20px;
+	margin-left: 6px;
+}
+.carousel-item img{
+	width:674px;
+	height: 403px;
+}
+.card{
+	border-radius: 30px;
+	transition: all 2s;
+	background-color: #b170a4db;
+}
+.card:hover{
+	transform: scale(1.1);
+}
+.card img{
+	max-height: 600px;
+    width: 80%;
+    margin: 22px;
+    border-radius: 17px;
+}
+.circle{
+	border-radius: 50%;
+	background-color: rgba(204, 153, 255,0.7);
+	height: 200px;
+	width: 200px;
+	color:white;
+	text-align: center;
+	justify-content: center;
+	transition: all 2s;
+}
+.circle:hover{
+	transform: scale(1.1);
+}
+h3{
+	margin-top: 40px !important;
+}
+.footer {
+  
+    /* left: 0;
+   bottom: 0;*/
+  /* width: 100%;
+   margin-bottom: 0px;*/
+   background-color: rgba(255, 153, 153,0.8);
+   color: white;
+   text-align: center;
+}
+p{
+	    margin-top: 24px !important;
+    margin-bottom: 0rem !important;
+
+}
+.fa-google{
+	margin-top: 10px;
+	font-size: 100px;
+	color:teal;
+	background-color:yellow;
+}
+.fa-google:hover{
+	color:yellow;
+	background-color: teal;
+}
+.fa-twitter-square{
+	margin-top: 10px;
+	font-size: 100px;
+	color:teal;
+	background-color:yellow;
+}
+.fa-twitter-square:hover{
+	color:yellow;
+	background-color: teal;
+}
+.fa-facebook-square{
+	margin-top: 10px;
+	font-size: 100px;
+	color:teal;
+	background-color:yellow;
+}
+.fa-facebook-square:hover{
+	color:yellow;
+	background-color: teal;
+}
+.fa-sms{
+	margin-top: 10px;
+	font-size: 100px;
+	color:teal;
+	background-color:yellow;
+}
+.fa-sms:hover{
+	color:yellow;
+	background-color:teal;
+}
+
+.row1{
+	display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #daa1da;
+    border-radius: 27px;
+    padding: 23px;
+}
+
+/*=======================================================*/
+
+@media only screen and(max-width: 600px){
+	.row1{
+		display: grid;
+		grid-gap: 10px;
+		grid-template-columns: 1fr;
+	}
 }

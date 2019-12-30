@@ -5,12 +5,49 @@
 	margin-top: 20px;
 
 }*/
-.card{
-	width:250px;
-	height:400px;
-	display:inline-block;
-	color: teal;
-	margin:10px;
-	margin-left: 100px;
-}
 
+
+.card{
+	
+	min-height:500px;
+	display:flex;
+	justify-content: center;
+	color: teal;
+	margin-top:250px;
+	border-radius: 30px;
+	background-color: #79c5c5;
+	align-items: center;
+	transition: all 2s
+}
+.card:hover{
+	transform: scale(1.1);
+}
+.card img {
+    max-height: 600px;
+    width: 80%;
+    margin-top: 22px;
+    border-radius: 17px;
+}
+.circle{
+	border-radius: 50%;
+	background-color: rgba(204, 153, 255,0.7);
+	height: 200px;
+	width: 200px;
+	color:white;
+	text-align: center;
+	justify-content: center;
+	transition: all 2s;
+}
+.circle:hover{
+	transform: scale(1.1);
+}
+.footer {
+   position:absolute;
+     left: 0;
+   bottom: 0;
+   width: 100%;
+
+   background-color: rgba(255, 153, 153,0.6);
+   color: white;
+   text-align: center;
+}
